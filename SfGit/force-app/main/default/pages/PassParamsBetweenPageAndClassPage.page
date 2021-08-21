@@ -1,0 +1,10 @@
+<apex:page controller="ControllerPassParamNew">
+    <apex:form >
+    You are Viewing the {!account.name} account.
+        Change Acoount Name <p/>
+        <apex:inputField value="{!account.name}" /><p/>
+        <apex:commandButton action="{!save}" value="Save New Account Name" />
+        <apex:commandButton action="{!GoToNewPage}" value="Go To Next Page" />
+    
+    </apex:form>
+</apex:page>

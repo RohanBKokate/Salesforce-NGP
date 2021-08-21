@@ -1,0 +1,6 @@
+<apex:page >
+    
+    <apex:image url="{URLFOR(!Resource.zip, 'RBKPIC/unnamed.jpg')}" width="50" height="50" />
+    
+    
+</apex:page>

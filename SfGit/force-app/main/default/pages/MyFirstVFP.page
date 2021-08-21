@@ -1,0 +1,6 @@
+<apex:page >
+    <h1>
+        
+        Hello VFP
+    </h1>
+</apex:page>

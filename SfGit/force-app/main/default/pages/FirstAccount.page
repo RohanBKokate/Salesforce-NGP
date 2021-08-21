@@ -1,0 +1,9 @@
+<apex:page standardController="account">
+    <h1>
+        Hello World Updated {!account.name}
+    </h1>
+    <apex:pageBlock >
+        <apex:detail relatedList="false"/>
+        <apex:relatedList list="contacts"/>
+    </apex:pageBlock>
+</apex:page>

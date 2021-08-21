@@ -1,0 +1,11 @@
+<apex:page standardController="account" extensions="ExtentionCont1" >
+    
+    <apex:pageBlock >
+    
+        {!account.name}
+    </apex:pageBlock>
+    <apex:pageBlock >
+    {!Gretting}
+    </apex:pageBlock>
+    
+</apex:page>
